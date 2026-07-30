@@ -53,6 +53,7 @@ in Python and Go — for pentesters, red teamers, and defenders alike.
 | 🧬 [HackDev-CVEWatch](https://github.com/raghubirrajmahato15/HackDev-CVEWatch) | Threat Intel | CVE feed monitor with EPSS/KEV-aware alerting |
 | 🔐 [HackDev-Vault](https://github.com/raghubirrajmahato15/HackDev-Vault) | Cryptography | Encrypted CLI password manager (AES-256-GCM) |
 | 🧠 [HackDev_AI](https://github.com/raghubirrajmahato15/HackDev_AI) | AI Security | Enterprise AI-assisted vulnerability scanner |
+| 🧩 [HackDev-LeakGuard](https://github.com/raghubirrajmahato15/HackDev-LeakGuard) | Browser Extension | Chrome extension warning of breached passwords on login/signup/reset pages |
 
 </div>
 
