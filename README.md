@@ -1,10 +1,17 @@
+<table>
+<tr>
+<td width="70" valign="top">
+
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain-tall.svg" width="70" alt="matrix rain" />
+
+</td>
+<td valign="top">
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:16a34a&height=220&section=header&text=Raghubir%20Mahato&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Security%20Research%20%7C%20Web%20Development%20%7C%20Open-Source%20Tooling&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2500&pause=800&color=16A34A&center=true&vCenter=true&width=600&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
-
-<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain.svg" width="100%" alt="matrix rain" />
 
 <a href="mailto:raghubirrajmahato15@gmail.com"><img src="https://img.shields.io/badge/EMAIL-raghubirrajmahato15%40gmail.com-e11d48?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" /></a>
 <a href="https://github.com/raghubirrajmahato15"><img src="https://img.shields.io/badge/GITHUB-raghubirrajmahato15-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" /></a>
@@ -28,10 +35,6 @@ data layers) end to end, from database schema to deployed UI. I like working acr
 stack: the same instinct for "how would this break" that drives the security tooling also shapes
 how I build and harden the web apps themselves.
 
-<table>
-<tr>
-<td>
-
 🔐 **Founder of [HackDev](https://github.com/raghubirrajmahato15/raghubirrajmahato15)** — a growing open-source suite of penetration-testing, recon, and blue-team tools
 
 💻 **Web developer** — full-stack apps with React, TypeScript, Node.js, and PostgreSQL (see [Good Health AI](https://github.com/raghubirrajmahato15/hack4impact))
@@ -41,10 +44,6 @@ how I build and harden the web apps themselves.
 🤖 **Exploring** — AI-assisted tooling: automated triage, adaptive payload generation, phishing/anomaly detection
 
 📍 Kathmandu, Nepal &nbsp;·&nbsp; 📫 raghubirrajmahato15@gmail.com
-
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -120,8 +119,6 @@ how I build and harden the web apps themselves.
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/output/github-snake.svg" />
 </picture>
 
-<sub>(generates automatically within a few hours of this repo's first Actions run — refresh later if it's not showing yet)</sub>
-
 </div>
 
 <br/>
@@ -133,3 +130,7 @@ how I build and harden the web apps themselves.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16a34a,100:0f172a&height=100&section=footer" width="100%"/>
 
 </div>
+
+</td>
+</tr>
+</table>
