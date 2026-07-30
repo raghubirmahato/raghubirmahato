@@ -1,15 +1,6 @@
-<table>
-<tr>
-<td width="60" valign="top">
-
-<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain-a.svg" alt="matrix rain" /><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain-b.svg" alt="matrix rain" /><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain-a.svg" alt="matrix rain" />
-
-</td>
-<td width="760" valign="top">
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:16a34a&height=200&section=header&text=Raghubir%20Mahato&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Security%20Research%20%7C%20Web%20Development%20%7C%20Open-Source%20Tooling&descAlignY=58&descSize=15&animation=fadeIn" width="760"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:16a34a&height=200&section=header&text=Raghubir%20Mahato&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Security%20Research%20%7C%20Web%20Development%20%7C%20Open-Source%20Tooling&descAlignY=58&descSize=15&animation=fadeIn" width="800"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=16A34A&center=true&vCenter=true&width=500&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
 
@@ -24,7 +15,7 @@
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-1.svg" width="900" alt="" />
 
 ## 👋 Professional Profile
 
@@ -45,7 +36,7 @@ how I build and harden the web apps themselves.
 
 📍 Kathmandu, Nepal &nbsp;·&nbsp; 📫 raghubirrajmahato15@gmail.com
 
-<br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-2.svg" width="900" alt="" />
 
 ## 🧰 Tech Stack
 
@@ -57,7 +48,7 @@ how I build and harden the web apps themselves.
 <br/>
 **Tools & Infra:** <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux&theme=dark" height="36"/>
 
-<br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-3.svg" width="900" alt="" />
 
 ## 🛠️ HackDev Toolkit — Security
 
@@ -74,13 +65,13 @@ how I build and harden the web apps themselves.
 - 🧠 **[HackDev_AI](https://github.com/raghubirrajmahato15/HackDev_AI)** — Enterprise AI-assisted vulnerability scanner
 - 🧩 **[HackDev-LeakGuard](https://github.com/raghubirrajmahato15/HackDev-LeakGuard)** — Chrome extension warning of breached passwords on login/signup/reset pages
 
-<br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-1.svg" width="900" alt="" />
 
 ## 💻 Web Development
 
 - 🏥 **[Good Health AI](https://github.com/raghubirrajmahato15/hack4impact)** — React 19 · TypeScript · Node.js · PostgreSQL · Tailwind · Gemini AI — full-stack healthcare platform: AI health analysis, doctor discovery, appointment booking
 
-<br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-2.svg" width="900" alt="" />
 
 ## 📊 GitHub Stats
 
@@ -93,7 +84,7 @@ how I build and harden the web apps themselves.
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-3.svg" width="900" alt="" />
 
 ## 🐍 Contribution Snake
 
@@ -101,21 +92,17 @@ how I build and harden the web apps themselves.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/output/github-snake-dark.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/output/github-snake.svg" width="740" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/output/github-snake.svg" width="800" />
 </picture>
 
 </div>
 
-<br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-1.svg" width="900" alt="" />
 
 <div align="center">
 
 **HackDev** — open-source security tooling, built in public. ⭐ Star a repo, open an issue, or send a PR.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16a34a,100:0f172a&height=100&section=footer" width="760"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16a34a,100:0f172a&height=100&section=footer" width="800"/>
 
 </div>
-
-</td>
-</tr>
-</table>
