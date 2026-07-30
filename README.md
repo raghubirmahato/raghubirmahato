@@ -2,7 +2,7 @@
 <tr>
 <td width="60" valign="top">
 
-<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain-tall.svg" width="60" height="3200" alt="matrix rain" />
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain-tall.svg" width="60" height="2000" alt="matrix rain" /><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain-tall.svg" width="60" height="2000" alt="matrix rain" />
 
 </td>
 <td width="760" valign="top">
