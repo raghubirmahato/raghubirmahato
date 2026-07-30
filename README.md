@@ -6,6 +6,8 @@
 
 <a href="mailto:raghubirrajmahato15@gmail.com"><img src="https://img.shields.io/badge/EMAIL-raghubirrajmahato15%40gmail.com-e11d48?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" /></a>
 <a href="https://github.com/raghubirrajmahato15"><img src="https://img.shields.io/badge/GITHUB-raghubirrajmahato15-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" /></a>
+<a href="https://www.instagram.com/raghubir_raj_mahato"><img src="https://img.shields.io/badge/INSTAGRAM-raghubir__raj__mahato-e11d48?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0f172a" /></a>
+<a href="https://www.facebook.com/profile.php?id=61570376180779"><img src="https://img.shields.io/badge/FACEBOOK-Raghubir%20Mahato-16a34a?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0f172a" /></a>
 
 <a href="https://github.com/raghubirrajmahato15?tab=followers"><img src="https://img.shields.io/github/followers/raghubirrajmahato15?style=for-the-badge&logo=github&color=16a34a&labelColor=0f172a&label=FOLLOWERS" /></a>
 <a href="https://github.com/raghubirrajmahato15"><img src="https://komarev.com/ghpvc/?username=raghubirrajmahato15&style=for-the-badge&color=16a34a&labelColor=0f172a&label=PROFILE+VIEWS" /></a>
