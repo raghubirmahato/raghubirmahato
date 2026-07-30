@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:16a34a&height=200&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:16a34a&height=220&section=header&text=Raghubir%20Mahato&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Security%20Research%20%7C%20Web%20Development%20%7C%20Open-Source%20Tooling&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2500&pause=800&color=16A34A&center=true&vCenter=true&width=600&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
 
