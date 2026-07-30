@@ -96,3 +96,4 @@ how I build and harden the web apps themselves.
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:16a34a,100:0f172a&height=100&section=footer" width="100%"/>
 
 </div>
+
