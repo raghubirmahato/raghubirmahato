@@ -4,14 +4,11 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=D11AFF&center=true&vCenter=true&width=500&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
 
-<a href="mailto:raghubirrajmahato15@gmail.com"><img src="https://img.shields.io/badge/EMAIL-raghubirrajmahato15%40gmail.com-d11aff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0a1a" /></a>
-<a href="https://github.com/raghubirrajmahato15"><img src="https://img.shields.io/badge/GITHUB-raghubirrajmahato15-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0a1a" /></a>
-<a href="https://www.instagram.com/raghubir_raj_mahato"><img src="https://img.shields.io/badge/INSTAGRAM-raghubir__raj__mahato-d11aff?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0f0a1a" /></a>
-<a href="https://www.facebook.com/profile.php?id=61570376180779"><img src="https://img.shields.io/badge/FACEBOOK-Raghubir%20Mahato-00d9ff?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0f0a1a" /></a>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-1.svg" alt="email · github" />
 
-<a href="https://github.com/raghubirrajmahato15?tab=followers"><img src="https://img.shields.io/github/followers/raghubirrajmahato15?style=for-the-badge&logo=github&color=d11aff&labelColor=0f0a1a&label=FOLLOWERS" /></a>
-<a href="https://github.com/raghubirrajmahato15"><img src="https://komarev.com/ghpvc/?username=raghubirrajmahato15&style=for-the-badge&color=00d9ff&labelColor=0f0a1a&label=PROFILE+VIEWS" /></a>
-<img src="https://img.shields.io/badge/BASED%20IN-KATHMANDU%2C%20NEPAL-d11aff?style=for-the-badge&labelColor=0f0a1a" />
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-2.svg" alt="instagram · facebook" />
+
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-3.svg" alt="followers · profile views · based in" />
 
 </div>
 

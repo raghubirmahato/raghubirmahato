@@ -1,0 +1,20 @@
+<svg width="614.6" height="84.0" viewBox="0 0 614.6 84.0" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="dropshadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  
+  <g filter="url(#dropshadow)">
+    <rect x="26.0" y="26.0" width="105.4" height="32" fill="#0f0a1a" />
+    <rect x="131.4" y="26.0" width="191.4" height="32" fill="#d11aff" />
+    <text x="78.7" y="46.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">INSTAGRAM</text>
+    <text x="227.1" y="46.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubir_raj_mahato</text>
+  </g>
+  <g filter="url(#dropshadow)">
+    <rect x="334.8" y="26.0" width="96.8" height="32" fill="#0f0a1a" />
+    <rect x="431.6" y="26.0" width="157.0" height="32" fill="#00d9ff" />
+    <text x="383.2" y="46.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">FACEBOOK</text>
+    <text x="510.1" y="46.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">Raghubir Mahato</text>
+  </g>
+</svg>
