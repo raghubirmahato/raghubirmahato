@@ -4,6 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=2500&pause=800&color=16A34A&center=true&vCenter=true&width=600&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
 
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-rain.svg" width="100%" alt="matrix rain" />
+
 <a href="mailto:raghubirrajmahato15@gmail.com"><img src="https://img.shields.io/badge/EMAIL-raghubirrajmahato15%40gmail.com-e11d48?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" /></a>
 <a href="https://github.com/raghubirrajmahato15"><img src="https://img.shields.io/badge/GITHUB-raghubirrajmahato15-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" /></a>
 <a href="https://www.instagram.com/raghubir_raj_mahato"><img src="https://img.shields.io/badge/INSTAGRAM-raghubir__raj__mahato-e11d48?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0f172a" /></a>
