@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:16a34a&height=200&section=header&text=Raghubir%20Mahato&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Security%20Research%20%7C%20Web%20Development%20%7C%20Open-Source%20Tooling&descAlignY=58&descSize=15&animation=fadeIn" width="800"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c1fa8,50:d11aff,100:00d9ff&height=200&section=header&text=Raghubir%20Mahato&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Security%20Research%20%7C%20Web%20Development%20%7C%20Open-Source%20Tooling&descAlignY=58&descSize=15&animation=fadeIn" width="800"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=16A34A&center=true&vCenter=true&width=500&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=D11AFF&center=true&vCenter=true&width=500&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
 
-<a href="mailto:raghubirrajmahato15@gmail.com"><img src="https://img.shields.io/badge/EMAIL-raghubirrajmahato15%40gmail.com-e11d48?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a" /></a>
-<a href="https://github.com/raghubirrajmahato15"><img src="https://img.shields.io/badge/GITHUB-raghubirrajmahato15-16a34a?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" /></a>
-<a href="https://www.instagram.com/raghubir_raj_mahato"><img src="https://img.shields.io/badge/INSTAGRAM-raghubir__raj__mahato-e11d48?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0f172a" /></a>
-<a href="https://www.facebook.com/profile.php?id=61570376180779"><img src="https://img.shields.io/badge/FACEBOOK-Raghubir%20Mahato-16a34a?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0f172a" /></a>
+<a href="mailto:raghubirrajmahato15@gmail.com"><img src="https://img.shields.io/badge/EMAIL-raghubirrajmahato15%40gmail.com-d11aff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0a1a" /></a>
+<a href="https://github.com/raghubirrajmahato15"><img src="https://img.shields.io/badge/GITHUB-raghubirrajmahato15-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0a1a" /></a>
+<a href="https://www.instagram.com/raghubir_raj_mahato"><img src="https://img.shields.io/badge/INSTAGRAM-raghubir__raj__mahato-d11aff?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0f0a1a" /></a>
+<a href="https://www.facebook.com/profile.php?id=61570376180779"><img src="https://img.shields.io/badge/FACEBOOK-Raghubir%20Mahato-00d9ff?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0f0a1a" /></a>
 
-<a href="https://github.com/raghubirrajmahato15?tab=followers"><img src="https://img.shields.io/github/followers/raghubirrajmahato15?style=for-the-badge&logo=github&color=16a34a&labelColor=0f172a&label=FOLLOWERS" /></a>
-<a href="https://github.com/raghubirrajmahato15"><img src="https://komarev.com/ghpvc/?username=raghubirrajmahato15&style=for-the-badge&color=16a34a&labelColor=0f172a&label=PROFILE+VIEWS" /></a>
-<img src="https://img.shields.io/badge/BASED%20IN-KATHMANDU%2C%20NEPAL-16a34a?style=for-the-badge&labelColor=0f172a" />
+<a href="https://github.com/raghubirrajmahato15?tab=followers"><img src="https://img.shields.io/github/followers/raghubirrajmahato15?style=for-the-badge&logo=github&color=d11aff&labelColor=0f0a1a&label=FOLLOWERS" /></a>
+<a href="https://github.com/raghubirrajmahato15"><img src="https://komarev.com/ghpvc/?username=raghubirrajmahato15&style=for-the-badge&color=00d9ff&labelColor=0f0a1a&label=PROFILE+VIEWS" /></a>
+<img src="https://img.shields.io/badge/BASED%20IN-KATHMANDU%2C%20NEPAL-d11aff?style=for-the-badge&labelColor=0f0a1a" />
 
 </div>
 
@@ -26,7 +26,7 @@ data layers) end to end, from database schema to deployed UI. I like working acr
 stack: the same instinct for "how would this break" that drives the security tooling also shapes
 how I build and harden the web apps themselves.
 
-🔐 **Founder of [HackDev](https://github.com/raghubirrajmahato15/raghubirrajmahato15)** — a growing open-source suite of penetration-testing, recon, and blue-team tools
+🔮 **Founder of [HackDev](https://github.com/raghubirrajmahato15/raghubirrajmahato15)** — a growing open-source suite of penetration-testing, recon, and blue-team tools
 
 💻 **Web developer** — full-stack apps with React, TypeScript, Node.js, and PostgreSQL (see [Good Health AI](https://github.com/raghubirrajmahato15/hack4impact))
 
@@ -52,24 +52,36 @@ how I build and harden the web apps themselves.
 
 ## 🛠️ HackDev Toolkit — Security
 
-- 🔎 **[HackDev-PortScanner](https://github.com/raghubirrajmahato15/HackDev-PortScanner)** — Async TCP/UDP port scanner, banner grabbing, service fingerprinting
-- 🌐 **[HackDev-SubEnum](https://github.com/raghubirrajmahato15/HackDev-SubEnum)** — Passive + active subdomain enumeration, takeover detection
-- 🛡️ **[HackDev-WebScan](https://github.com/raghubirrajmahato15/HackDev-WebScan)** — XSS, SQLi, SSTI, open-redirect & header vulnerability scanner
-- 📂 **[HackDev-DirBuster](https://github.com/raghubirrajmahato15/HackDev-DirBuster)** — Concurrent directory/file brute-forcer with smart filtering
-- 🔑 **[HackDev-PassAudit](https://github.com/raghubirrajmahato15/HackDev-PassAudit)** — Password strength auditor, hash identifier & cracker
-- 🎣 **[HackDev-PhishGuard](https://github.com/raghubirrajmahato15/HackDev-PhishGuard)** — Heuristic + ML phishing URL detector
-- 📊 **[HackDev-LogSentinel](https://github.com/raghubirrajmahato15/HackDev-LogSentinel)** — ML-based log anomaly & intrusion detector
-- 📡 **[HackDev-NetSniff](https://github.com/raghubirrajmahato15/HackDev-NetSniff)** — Live packet sniffer & traffic analyzer
-- 🧬 **[HackDev-CVEWatch](https://github.com/raghubirrajmahato15/HackDev-CVEWatch)** — CVE feed monitor with EPSS/KEV-aware alerting
-- 🔐 **[HackDev-Vault](https://github.com/raghubirrajmahato15/HackDev-Vault)** — Encrypted CLI password manager (AES-256-GCM)
-- 🧠 **[HackDev_AI](https://github.com/raghubirrajmahato15/HackDev_AI)** — Enterprise AI-assisted vulnerability scanner
-- 🧩 **[HackDev-LeakGuard](https://github.com/raghubirrajmahato15/HackDev-LeakGuard)** — Chrome extension warning of breached passwords on login/signup/reset pages
+<div align="center">
+
+| Tool | Category | What it does |
+|---|---|---|
+| 🔎 [HackDev-PortScanner](https://github.com/raghubirrajmahato15/HackDev-PortScanner) | `Network Recon` | Async TCP/UDP port scanner, banner grabbing, service fingerprinting |
+| 🌐 [HackDev-SubEnum](https://github.com/raghubirrajmahato15/HackDev-SubEnum) | `Recon` | Passive + active subdomain enumeration, takeover detection |
+| 🛡️ [HackDev-WebScan](https://github.com/raghubirrajmahato15/HackDev-WebScan) | `Web AppSec` | XSS, SQLi, SSTI, open-redirect & header vulnerability scanner |
+| 📂 [HackDev-DirBuster](https://github.com/raghubirrajmahato15/HackDev-DirBuster) | `Web AppSec` | Concurrent directory/file brute-forcer with smart filtering |
+| 🔑 [HackDev-PassAudit](https://github.com/raghubirrajmahato15/HackDev-PassAudit) | `Credential Security` | Password strength auditor, hash identifier & cracker |
+| 🎣 [HackDev-PhishGuard](https://github.com/raghubirrajmahato15/HackDev-PhishGuard) | `Threat Detection` | Heuristic + ML phishing URL detector |
+| 📊 [HackDev-LogSentinel](https://github.com/raghubirrajmahato15/HackDev-LogSentinel) | `Blue Team` | ML-based log anomaly & intrusion detector |
+| 📡 [HackDev-NetSniff](https://github.com/raghubirrajmahato15/HackDev-NetSniff) | `Network Analysis` | Live packet sniffer & traffic analyzer |
+| 🧬 [HackDev-CVEWatch](https://github.com/raghubirrajmahato15/HackDev-CVEWatch) | `Threat Intel` | CVE feed monitor with EPSS/KEV-aware alerting |
+| 🔐 [HackDev-Vault](https://github.com/raghubirrajmahato15/HackDev-Vault) | `Cryptography` | Encrypted CLI password manager (AES-256-GCM) |
+| 🧠 [HackDev_AI](https://github.com/raghubirrajmahato15/HackDev_AI) | `AI Security` | Enterprise AI-assisted vulnerability scanner |
+| 🧩 [HackDev-LeakGuard](https://github.com/raghubirrajmahato15/HackDev-LeakGuard) | `Browser Extension` | Chrome extension warning of breached passwords on login/signup/reset pages |
+
+</div>
 
 <img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-1.svg" width="900" alt="" />
 
 ## 💻 Web Development
 
-- 🏥 **[Good Health AI](https://github.com/raghubirrajmahato15/hack4impact)** — React 19 · TypeScript · Node.js · PostgreSQL · Tailwind · Gemini AI — full-stack healthcare platform: AI health analysis, doctor discovery, appointment booking
+<div align="center">
+
+| Project | Stack | What it does |
+|---|---|---|
+| 🏥 [Good Health AI](https://github.com/raghubirrajmahato15/hack4impact) | React 19 · TypeScript · Node.js · PostgreSQL · Tailwind · Gemini AI | Full-stack healthcare platform: AI health analysis, doctor discovery, appointment booking |
+
+</div>
 
 <img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/matrix-divider-2.svg" width="900" alt="" />
 
@@ -77,10 +89,10 @@ how I build and harden the web apps themselves.
 
 <div align="center">
 
-<img src="https://github-readme-stats-psi-lovat.vercel.app/api?username=raghubirrajmahato15&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=16a34a&icon_color=16a34a&count_private=true" width="370"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=raghubirrajmahato15&theme=dark&hide_border=true&background=0d1117&ring=16a34a&fire=16a34a" width="370"/>
+<img src="https://github-readme-stats-psi-lovat.vercel.app/api?username=raghubirrajmahato15&show_icons=true&theme=dark&hide_border=true&bg_color=0f0a1a&title_color=d11aff&icon_color=00d9ff&text_color=e2e8f0&count_private=true" width="370"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=raghubirrajmahato15&theme=dark&hide_border=true&background=0f0a1a&ring=d11aff&fire=00d9ff" width="370"/>
 
-<img src="https://github-readme-stats-psi-lovat.vercel.app/api/top-langs/?username=raghubirrajmahato15&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=16a34a" width="370"/>
+<img src="https://github-readme-stats-psi-lovat.vercel.app/api/top-langs/?username=raghubirrajmahato15&layout=compact&theme=dark&hide_border=true&bg_color=0f0a1a&title_color=d11aff&text_color=e2e8f0" width="370"/>
 
 </div>
 
@@ -103,6 +115,6 @@ how I build and harden the web apps themselves.
 
 **HackDev** — open-source security tooling, built in public. ⭐ Star a repo, open an issue, or send a PR.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16a34a,100:0f172a&height=100&section=footer" width="800"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d9ff,50:d11aff,100:7c1fa8&height=100&section=footer" width="800"/>
 
 </div>
