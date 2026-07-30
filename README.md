@@ -48,27 +48,12 @@ how I build and harden the web apps themselves.
 
 <div align="center">
 
-**Languages**
-<br/>
-<img src="https://skillicons.dev/icons?i=python,go,ts,js,bash&theme=dark" />
-
-<br/><br/>
-
-**Web & Frameworks**
-<br/>
-<img src="https://skillicons.dev/icons?i=react,nodejs,flask,vite,tailwind&theme=dark" />
-
-<br/><br/>
-
-**Data & ML**
-<br/>
-<img src="https://skillicons.dev/icons?i=postgres,sklearn&theme=dark" />
-
-<br/><br/>
-
-**Tools & Infra**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux&theme=dark" />
+| | |
+|---:|:---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=python,go,ts,js,bash&theme=dark" height="40"/> |
+| **Web & Frameworks** | <img src="https://skillicons.dev/icons?i=react,nodejs,flask,vite,tailwind&theme=dark" height="40"/> |
+| **Data & ML** | <img src="https://skillicons.dev/icons?i=postgres,sklearn&theme=dark" height="40"/> |
+| **Tools & Infra** | <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux&theme=dark" height="40"/> |
 
 </div>
 
