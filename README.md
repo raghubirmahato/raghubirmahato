@@ -89,10 +89,10 @@ how I build and harden the web apps themselves.
 
 <div align="center">
 
-<img src="https://github-readme-stats-psi-lovat.vercel.app/api?username=raghubirrajmahato15&show_icons=true&theme=dark&hide_border=true&bg_color=0f0a1a&title_color=d11aff&icon_color=00d9ff&text_color=e2e8f0&count_private=true" width="370"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=raghubirrajmahato15&theme=dark&hide_border=true&background=0f0a1a&ring=d11aff&fire=00d9ff" width="370"/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/stats-card.svg" width="460"/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/streak-stats.svg" width="460"/>
 
-<img src="https://github-readme-stats-psi-lovat.vercel.app/api/top-langs/?username=raghubirrajmahato15&layout=compact&theme=dark&hide_border=true&bg_color=0f0a1a&title_color=d11aff&text_color=e2e8f0" width="370"/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/top-langs.svg" width="370"/>
 
 </div>
 
