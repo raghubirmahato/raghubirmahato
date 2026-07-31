@@ -4,10 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=D11AFF&center=true&vCenter=true&width=500&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
 
-<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-1.svg" alt="email · github" />
-
-<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-2.svg" alt="instagram · facebook" />
-
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-1.svg" alt="email · github" /><br/>
+<img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-2.svg" alt="instagram · facebook" /><br/>
 <img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-row-3.svg" alt="followers · profile views · based in" />
 
 </div>

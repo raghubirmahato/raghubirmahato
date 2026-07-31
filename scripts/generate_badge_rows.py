@@ -28,9 +28,9 @@ HEIGHT = 32
 FONT_SIZE = 12.5
 CHAR_W = 8.6  # heuristic average width for bold uppercase sans-serif at FONT_SIZE
 H_PAD = 14
-GAP = 12
-ROW_PAD = 16
-SHADOW_MARGIN = 22
+GAP = 10
+ROW_PAD = 4
+SHADOW_MARGIN = 20
 
 
 def text_w(s):
