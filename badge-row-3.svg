@@ -1,26 +1,29 @@
-<svg width="674.0" height="84.0" viewBox="0 0 674.0 84.0" xmlns="http://www.w3.org/2000/svg">
+<svg width="698.0" height="108.0" viewBox="0 0 698.0 108.0" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="dropshadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    <filter id="glow-purple" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#d11aff" flood-opacity="0.65"/>
+    </filter>
+    <filter id="glow-cyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#00d9ff" flood-opacity="0.65"/>
     </filter>
   </defs>
   
-  <g filter="url(#dropshadow)">
-    <rect x="26.0" y="26.0" width="105.4" height="32" fill="#0f0a1a" />
-    <rect x="131.4" y="26.0" width="45.2" height="32" fill="#d11aff" />
-    <text x="78.7" y="46.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">FOLLOWERS</text>
-    <text x="154.0" y="46.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">11</text>
+  <g filter="url(#glow-purple)">
+    <rect x="38.0" y="38.0" width="105.4" height="32" fill="#0f0a1a" />
+    <rect x="143.4" y="38.0" width="45.2" height="32" fill="#d11aff" />
+    <text x="90.7" y="58.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">FOLLOWERS</text>
+    <text x="166.0" y="58.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">11</text>
   </g>
-  <g filter="url(#dropshadow)">
-    <rect x="188.6" y="26.0" width="139.8" height="32" fill="#0f0a1a" />
-    <rect x="328.4" y="26.0" width="45.2" height="32" fill="#00d9ff" />
-    <text x="258.5" y="46.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">PROFILE VIEWS</text>
-    <text x="351.0" y="46.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">36</text>
+  <g filter="url(#glow-cyan)">
+    <rect x="200.6" y="38.0" width="139.8" height="32" fill="#0f0a1a" />
+    <rect x="340.4" y="38.0" width="45.2" height="32" fill="#00d9ff" />
+    <text x="270.5" y="58.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">PROFILE VIEWS</text>
+    <text x="363.0" y="58.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">36</text>
   </g>
-  <g filter="url(#dropshadow)">
-    <rect x="385.6" y="26.0" width="96.8" height="32" fill="#0f0a1a" />
-    <rect x="482.4" y="26.0" width="165.6" height="32" fill="#d11aff" />
-    <text x="434.0" y="46.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">BASED IN</text>
-    <text x="565.2" y="46.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">KATHMANDU, NEPAL</text>
+  <g filter="url(#glow-purple)">
+    <rect x="397.6" y="38.0" width="96.8" height="32" fill="#0f0a1a" />
+    <rect x="494.4" y="38.0" width="165.6" height="32" fill="#d11aff" />
+    <text x="446.0" y="58.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">BASED IN</text>
+    <text x="577.2" y="58.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">KATHMANDU, NEPAL</text>
   </g>
 </svg>
