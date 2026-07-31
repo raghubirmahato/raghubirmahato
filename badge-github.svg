@@ -1,4 +1,4 @@
-<svg width="281.0" height="42.0" viewBox="0 0 281.0 42.0" xmlns="http://www.w3.org/2000/svg">
+<svg width="238.0" height="42.0" viewBox="0 0 238.0 42.0" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="glow-purple" x="-60%" y="-60%" width="220%" height="220%">
       <feDropShadow dx="0" dy="0.8" stdDeviation="1.6" flood-color="#d11aff" flood-opacity="0.85"/>
@@ -9,8 +9,8 @@
   </defs>
   <g filter="url(#glow-cyan)">
     <rect x="5.0" y="5.0" width="79.6" height="32" fill="#0f0a1a" />
-    <rect x="84.6" y="5.0" width="191.4" height="32" fill="#00d9ff" />
+    <rect x="84.6" y="5.0" width="148.4" height="32" fill="#00d9ff" />
     <text x="44.8" y="25.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">GITHUB</text>
-    <text x="180.3" y="25.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubirrajmahato15</text>
+    <text x="158.8" y="25.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubirmahato</text>
   </g>
 </svg>

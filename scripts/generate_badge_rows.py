@@ -103,7 +103,7 @@ def main():
 
     badges = [
         ("badge-email", "EMAIL", "raghubirrajmahato15@gmail.com", PURPLE),
-        ("badge-github", "GITHUB", "raghubirrajmahato15", CYAN),
+        ("badge-github", "GITHUB", "raghubirmahato", CYAN),
         ("badge-instagram", "INSTAGRAM", "raghubir_raj_mahato", PURPLE),
         ("badge-facebook", "FACEBOOK", "Raghubir Mahato", CYAN),
         ("badge-followers", "FOLLOWERS", str(followers), PURPLE),

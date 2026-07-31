@@ -20,12 +20,12 @@ jobs:
       - name: Generate stats SVGs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: raghubirrajmahato15
+          GH_USERNAME: raghubirmahato
         run: python scripts/generate_stats.py
       - name: Generate badge SVGs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: raghubirrajmahato15
+          GH_USERNAME: raghubirmahato
         run: python scripts/generate_badge_rows.py
       - name: Commit if changed
         run: |
