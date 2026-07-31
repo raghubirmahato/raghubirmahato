@@ -4,6 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2500&pause=800&color=D11AFF&center=true&vCenter=true&width=500&lines=Raghubir+Mahato;Security+Researcher;Full-Stack+Web+Developer;Founder+of+HackDev" alt="Typing SVG" />
 
+**Raghubir Mahato** — Security Researcher &amp; Full-Stack Web Developer based in Kathmandu, Nepal. Founder of [HackDev](https://github.com/raghubirrajmahato15/raghubirrajmahato15).
+
 <a href="mailto:raghubirrajmahato15@gmail.com"><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-email.svg" alt="email" /></a><a href="https://github.com/raghubirrajmahato15"><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-github.svg" alt="github" /></a><br/>
 <a href="https://www.instagram.com/raghubir_raj_mahato"><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-instagram.svg" alt="instagram" /></a><a href="https://www.facebook.com/profile.php?id=61570376180779"><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-facebook.svg" alt="facebook" /></a><br/>
 <a href="https://github.com/raghubirrajmahato15?tab=followers"><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-followers.svg" alt="followers" /></a><a href="https://github.com/raghubirrajmahato15"><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-views.svg" alt="profile views" /></a><img src="https://raw.githubusercontent.com/raghubirrajmahato15/raghubirrajmahato15/master/badge-location.svg" alt="based in" />
@@ -14,7 +16,8 @@
 
 ## 👋 Professional Profile
 
-I'm a security researcher and full-stack web developer. I build **HackDev**, an open-source suite
+I'm Raghubir Mahato, a security researcher and full-stack web developer based in Kathmandu, Nepal.
+I build **HackDev**, an open-source suite
 of penetration-testing, recon, and blue-team tools in Python and Go — and on the application side,
 I design and ship full-stack web products (React/TypeScript front ends, Node.js APIs, PostgreSQL
 data layers) end to end, from database schema to deployed UI. I like working across that whole
