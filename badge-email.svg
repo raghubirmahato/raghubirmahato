@@ -1,0 +1,16 @@
+<svg width="384.4" height="68.0" viewBox="0 0 384.4 68.0" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow-purple" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#d11aff" flood-opacity="0.65"/>
+    </filter>
+    <filter id="glow-cyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#00d9ff" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <g filter="url(#glow-purple)">
+    <rect x="18.0" y="18.0" width="71.0" height="32" fill="#0f0a1a" />
+    <rect x="89.0" y="18.0" width="277.4" height="32" fill="#d11aff" />
+    <text x="53.5" y="38.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">EMAIL</text>
+    <text x="227.7" y="38.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubirrajmahato15@gmail.com</text>
+  </g>
+</svg>

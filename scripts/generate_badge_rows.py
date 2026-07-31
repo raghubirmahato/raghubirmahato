@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
 """Self-draw the profile's badges (email/github/instagram/facebook,
-followers/views/location) as a single SVG with a real drop-shadow glow.
+followers/views/location) as individual SVGs with a real drop-shadow
+glow, one file per badge so each can still be wrapped in its own
+markdown <a href> (GitHub strips <map>/<area>, so a single flattened
+image can't carry multiple click targets — verified via the Markdown
+render API).
 
 GitHub's markdown sanitizer strips inline `style`/CSS from rendered
 markdown, so a shadow can only exist by baking it into the image itself
 (same reasoning as matrix-divider-*.svg and stats-card.svg elsewhere in
 this repo). shields.io/komarev have no shadow option, so badges are
 redrawn here instead of embedded.
-
-All rows are composed into ONE image (rather than one image per row)
-because separate <img> tags in markdown pick up unpredictable
-browser-level spacing (paragraph margins, line-height on the line
-breaks between them) that can't be tuned from here — a single SVG keeps
-row spacing exact and self-contained.
 
 Followers and profile-view counts are live values fetched at generation
 time (refreshed periodically by .github/workflows/stats.yml), not
@@ -35,58 +33,23 @@ HEIGHT = 32
 FONT_SIZE = 12.5
 CHAR_W = 8.6  # heuristic average width for bold uppercase sans-serif at FONT_SIZE
 H_PAD = 14
-GAP = 10          # horizontal gap between badges in the same row
-ROW_GAP = 14       # vertical gap between rows
-CANVAS_PAD = 4
-SHADOW_MARGIN = 20  # must cover the glow's blur radius so it isn't clipped
+SHADOW_MARGIN = 18  # must cover the glow's blur radius so it isn't clipped
 
 
 def text_w(s):
     return len(s) * CHAR_W
 
 
-def badge_markup(x, y, label, value, color):
+def build_badge_svg(label, value, color):
     label_w = text_w(label) + H_PAD * 2
     value_w = text_w(value) + H_PAD * 2
-    total_w = label_w + value_w
+    inner_w = label_w + value_w
     filter_id = "glow-purple" if color == PURPLE else "glow-cyan"
 
-    markup = f'''
-  <g filter="url(#{filter_id})">
-    <rect x="{x:.1f}" y="{y:.1f}" width="{label_w:.1f}" height="{HEIGHT}" fill="{BG_LABEL}" />
-    <rect x="{x+label_w:.1f}" y="{y:.1f}" width="{value_w:.1f}" height="{HEIGHT}" fill="{color}" />
-    <text x="{x+label_w/2:.1f}" y="{y+HEIGHT/2+4.5:.1f}" fill="{LABEL_TEXT}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="{FONT_SIZE}" font-weight="700" letter-spacing="0.6" text-anchor="middle">{escape(label)}</text>
-    <text x="{x+label_w+value_w/2:.1f}" y="{y+HEIGHT/2+4.5:.1f}" fill="{VALUE_TEXT}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="{FONT_SIZE}" font-weight="700" text-anchor="middle">{escape(value)}</text>
-  </g>'''
-    return total_w, markup
-
-
-def row_width(specs):
-    w = 0
-    for label, value, _ in specs:
-        label_w = text_w(label) + H_PAD * 2
-        value_w = text_w(value) + H_PAD * 2
-        w += label_w + value_w + GAP
-    return w - GAP
-
-
-def build_badges_svg(rows):
-    inner_w = max(row_width(r) for r in rows)
-    inner_h = len(rows) * HEIGHT + (len(rows) - 1) * ROW_GAP
-
-    canvas_w = inner_w + 2 * (CANVAS_PAD + SHADOW_MARGIN)
-    canvas_h = inner_h + 2 * (CANVAS_PAD + SHADOW_MARGIN)
-
-    parts = []
-    y = CANVAS_PAD + SHADOW_MARGIN
-    for specs in rows:
-        rw = row_width(specs)
-        x = CANVAS_PAD + SHADOW_MARGIN + (inner_w - rw) / 2  # center each row
-        for label, value, color in specs:
-            w, markup = badge_markup(x, y, label, value, color)
-            parts.append(markup)
-            x += w + GAP
-        y += HEIGHT + ROW_GAP
+    canvas_w = inner_w + 2 * SHADOW_MARGIN
+    canvas_h = HEIGHT + 2 * SHADOW_MARGIN
+    x = SHADOW_MARGIN
+    y = SHADOW_MARGIN
 
     return f'''<svg width="{canvas_w:.1f}" height="{canvas_h:.1f}" viewBox="0 0 {canvas_w:.1f} {canvas_h:.1f}" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -97,7 +60,12 @@ def build_badges_svg(rows):
       <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="{CYAN}" flood-opacity="0.65"/>
     </filter>
   </defs>
-  {''.join(parts)}
+  <g filter="url(#{filter_id})">
+    <rect x="{x:.1f}" y="{y:.1f}" width="{label_w:.1f}" height="{HEIGHT}" fill="{BG_LABEL}" />
+    <rect x="{x+label_w:.1f}" y="{y:.1f}" width="{value_w:.1f}" height="{HEIGHT}" fill="{color}" />
+    <text x="{x+label_w/2:.1f}" y="{y+HEIGHT/2+4.5:.1f}" fill="{LABEL_TEXT}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="{FONT_SIZE}" font-weight="700" letter-spacing="0.6" text-anchor="middle">{escape(label)}</text>
+    <text x="{x+label_w+value_w/2:.1f}" y="{y+HEIGHT/2+4.5:.1f}" fill="{VALUE_TEXT}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="{FONT_SIZE}" font-weight="700" text-anchor="middle">{escape(value)}</text>
+  </g>
 </svg>
 '''
 
@@ -133,27 +101,22 @@ def main():
     followers = fetch_followers(login, token)
     views = fetch_profile_views(login)
 
-    rows = [
-        [
-            ("EMAIL", "raghubirrajmahato15@gmail.com", PURPLE),
-            ("GITHUB", "raghubirrajmahato15", CYAN),
-        ],
-        [
-            ("INSTAGRAM", "raghubir_raj_mahato", PURPLE),
-            ("FACEBOOK", "Raghubir Mahato", CYAN),
-        ],
-        [
-            ("FOLLOWERS", str(followers), PURPLE),
-            ("PROFILE VIEWS", views, CYAN),
-            ("BASED IN", "KATHMANDU, NEPAL", PURPLE),
-        ],
+    badges = [
+        ("badge-email", "EMAIL", "raghubirrajmahato15@gmail.com", PURPLE),
+        ("badge-github", "GITHUB", "raghubirrajmahato15", CYAN),
+        ("badge-instagram", "INSTAGRAM", "raghubir_raj_mahato", PURPLE),
+        ("badge-facebook", "FACEBOOK", "Raghubir Mahato", CYAN),
+        ("badge-followers", "FOLLOWERS", str(followers), PURPLE),
+        ("badge-views", "PROFILE VIEWS", views, CYAN),
+        ("badge-location", "BASED IN", "KATHMANDU, NEPAL", PURPLE),
     ]
 
-    svg = build_badges_svg(rows)
-    out = f"{outdir}/badges.svg"
-    with open(out, "w", encoding="utf-8") as f:
-        f.write(svg)
-    print(f"wrote {out}")
+    for filename, label, value, color in badges:
+        svg = build_badge_svg(label, value, color)
+        out = f"{outdir}/{filename}.svg"
+        with open(out, "w", encoding="utf-8") as f:
+            f.write(svg)
+        print(f"wrote {out}")
 
 
 if __name__ == "__main__":
