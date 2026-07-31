@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""Self-draw the profile's badge rows (email/github/instagram/facebook,
-followers/views/location) as three SVGs with a real drop-shadow filter.
+"""Self-draw the profile's badges (email/github/instagram/facebook,
+followers/views/location) as a single SVG with a real drop-shadow glow.
 
 GitHub's markdown sanitizer strips inline `style`/CSS from rendered
 markdown, so a shadow can only exist by baking it into the image itself
 (same reasoning as matrix-divider-*.svg and stats-card.svg elsewhere in
 this repo). shields.io/komarev have no shadow option, so badges are
 redrawn here instead of embedded.
+
+All rows are composed into ONE image (rather than one image per row)
+because separate <img> tags in markdown pick up unpredictable
+browser-level spacing (paragraph margins, line-height on the line
+breaks between them) that can't be tuned from here — a single SVG keeps
+row spacing exact and self-contained.
 
 Followers and profile-view counts are live values fetched at generation
 time (refreshed periodically by .github/workflows/stats.yml), not
@@ -15,6 +21,7 @@ hardcoded, so they drift only as far as the refresh cadence.
 import os
 import sys
 import json
+import re
 import urllib.request
 from xml.sax.saxutils import escape
 
@@ -28,42 +35,60 @@ HEIGHT = 32
 FONT_SIZE = 12.5
 CHAR_W = 8.6  # heuristic average width for bold uppercase sans-serif at FONT_SIZE
 H_PAD = 14
-GAP = 10
-ROW_PAD = 4
-SHADOW_MARGIN = 20
+GAP = 10          # horizontal gap between badges in the same row
+ROW_GAP = 14       # vertical gap between rows
+CANVAS_PAD = 4
+SHADOW_MARGIN = 20  # must cover the glow's blur radius so it isn't clipped
 
 
 def text_w(s):
     return len(s) * CHAR_W
 
 
-def badge(x, y, label, value, color):
+def badge_markup(x, y, label, value, color):
     label_w = text_w(label) + H_PAD * 2
     value_w = text_w(value) + H_PAD * 2
     total_w = label_w + value_w
     filter_id = "glow-purple" if color == PURPLE else "glow-cyan"
 
-    return total_w, f'''
+    markup = f'''
   <g filter="url(#{filter_id})">
     <rect x="{x:.1f}" y="{y:.1f}" width="{label_w:.1f}" height="{HEIGHT}" fill="{BG_LABEL}" />
     <rect x="{x+label_w:.1f}" y="{y:.1f}" width="{value_w:.1f}" height="{HEIGHT}" fill="{color}" />
     <text x="{x+label_w/2:.1f}" y="{y+HEIGHT/2+4.5:.1f}" fill="{LABEL_TEXT}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="{FONT_SIZE}" font-weight="700" letter-spacing="0.6" text-anchor="middle">{escape(label)}</text>
     <text x="{x+label_w+value_w/2:.1f}" y="{y+HEIGHT/2+4.5:.1f}" fill="{VALUE_TEXT}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="{FONT_SIZE}" font-weight="700" text-anchor="middle">{escape(value)}</text>
   </g>'''
+    return total_w, markup
 
 
-def build_row(specs):
+def row_width(specs):
+    w = 0
+    for label, value, _ in specs:
+        label_w = text_w(label) + H_PAD * 2
+        value_w = text_w(value) + H_PAD * 2
+        w += label_w + value_w + GAP
+    return w - GAP
+
+
+def build_badges_svg(rows):
+    inner_w = max(row_width(r) for r in rows)
+    inner_h = len(rows) * HEIGHT + (len(rows) - 1) * ROW_GAP
+
+    canvas_w = inner_w + 2 * (CANVAS_PAD + SHADOW_MARGIN)
+    canvas_h = inner_h + 2 * (CANVAS_PAD + SHADOW_MARGIN)
+
     parts = []
-    x = ROW_PAD + SHADOW_MARGIN
-    y = ROW_PAD + SHADOW_MARGIN
-    for label, value, color in specs:
-        w, markup = badge(x, y, label, value, color)
-        parts.append(markup)
-        x += w + GAP
-    total_w = x - GAP + ROW_PAD + SHADOW_MARGIN
-    total_h = HEIGHT + ROW_PAD * 2 + SHADOW_MARGIN * 2
+    y = CANVAS_PAD + SHADOW_MARGIN
+    for specs in rows:
+        rw = row_width(specs)
+        x = CANVAS_PAD + SHADOW_MARGIN + (inner_w - rw) / 2  # center each row
+        for label, value, color in specs:
+            w, markup = badge_markup(x, y, label, value, color)
+            parts.append(markup)
+            x += w + GAP
+        y += HEIGHT + ROW_GAP
 
-    return f'''<svg width="{total_w:.1f}" height="{total_h:.1f}" viewBox="0 0 {total_w:.1f} {total_h:.1f}" xmlns="http://www.w3.org/2000/svg">
+    return f'''<svg width="{canvas_w:.1f}" height="{canvas_h:.1f}" viewBox="0 0 {canvas_w:.1f} {canvas_h:.1f}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="glow-purple" x="-60%" y="-60%" width="220%" height="220%">
       <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="{PURPLE}" flood-opacity="0.65"/>
@@ -93,7 +118,6 @@ def fetch_profile_views(login):
     )
     with urllib.request.urlopen(req, timeout=15) as resp:
         svg = resp.read().decode("utf-8", "ignore")
-    import re
     m = re.search(r">([\d,]+)<", svg)
     return m.group(1) if m else "0"
 
@@ -125,12 +149,11 @@ def main():
         ],
     ]
 
-    for i, specs in enumerate(rows, start=1):
-        svg = build_row(specs)
-        out = f"{outdir}/badge-row-{i}.svg"
-        with open(out, "w", encoding="utf-8") as f:
-            f.write(svg)
-        print(f"wrote {out}")
+    svg = build_badges_svg(rows)
+    out = f"{outdir}/badges.svg"
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(svg)
+    print(f"wrote {out}")
 
 
 if __name__ == "__main__":

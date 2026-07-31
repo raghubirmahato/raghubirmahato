@@ -22,7 +22,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: raghubirrajmahato15
         run: python scripts/generate_stats.py
-      - name: Generate badge row SVGs
+      - name: Generate badge SVGs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: raghubirrajmahato15
@@ -31,6 +31,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats-card.svg top-langs.svg streak-stats.svg badge-row-1.svg badge-row-2.svg badge-row-3.svg
+          git rm -f --ignore-unmatch badge-row-1.svg badge-row-2.svg badge-row-3.svg
+          git add stats-card.svg top-langs.svg streak-stats.svg badges.svg
           git diff --cached --quiet || git commit -m "chore: refresh GitHub stats and badge cards"
           git push
