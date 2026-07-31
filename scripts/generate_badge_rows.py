@@ -79,9 +79,16 @@ def fetch_followers(login, token):
         return json.load(resp)["followers"]
 
 
-def fetch_profile_views(login):
+# komarev's view counter is keyed by this literal string, independent of
+# the actual GitHub login — kept as the original username so the account
+# rename (raghubirrajmahato15 -> raghubirmahato) doesn't reset the
+# accumulated view count back to zero.
+VIEWS_COUNTER_KEY = "raghubirrajmahato15"
+
+
+def fetch_profile_views(counter_key):
     req = urllib.request.Request(
-        f"https://komarev.com/ghpvc/?username={login}&style=flat",
+        f"https://komarev.com/ghpvc/?username={counter_key}&style=flat",
         headers={"User-Agent": "hackdev-badge-generator"},
     )
     with urllib.request.urlopen(req, timeout=15) as resp:
@@ -99,7 +106,7 @@ def main():
         sys.exit(1)
 
     followers = fetch_followers(login, token)
-    views = fetch_profile_views(login)
+    views = fetch_profile_views(VIEWS_COUNTER_KEY)
 
     badges = [
         ("badge-email", "EMAIL", "raghubirrajmahato15@gmail.com", PURPLE),
