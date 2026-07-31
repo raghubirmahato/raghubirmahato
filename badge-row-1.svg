@@ -1,20 +1,23 @@
-<svg width="683.4" height="84.0" viewBox="0 0 683.4 84.0" xmlns="http://www.w3.org/2000/svg">
+<svg width="707.4" height="108.0" viewBox="0 0 707.4 108.0" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="dropshadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    <filter id="glow-purple" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#d11aff" flood-opacity="0.65"/>
+    </filter>
+    <filter id="glow-cyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#00d9ff" flood-opacity="0.65"/>
     </filter>
   </defs>
   
-  <g filter="url(#dropshadow)">
-    <rect x="26.0" y="26.0" width="71.0" height="32" fill="#0f0a1a" />
-    <rect x="97.0" y="26.0" width="277.4" height="32" fill="#d11aff" />
-    <text x="61.5" y="46.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">EMAIL</text>
-    <text x="235.7" y="46.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubirrajmahato15@gmail.com</text>
+  <g filter="url(#glow-purple)">
+    <rect x="38.0" y="38.0" width="71.0" height="32" fill="#0f0a1a" />
+    <rect x="109.0" y="38.0" width="277.4" height="32" fill="#d11aff" />
+    <text x="73.5" y="58.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">EMAIL</text>
+    <text x="247.7" y="58.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubirrajmahato15@gmail.com</text>
   </g>
-  <g filter="url(#dropshadow)">
-    <rect x="386.4" y="26.0" width="79.6" height="32" fill="#0f0a1a" />
-    <rect x="466.0" y="26.0" width="191.4" height="32" fill="#00d9ff" />
-    <text x="426.2" y="46.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">GITHUB</text>
-    <text x="561.7" y="46.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubirrajmahato15</text>
+  <g filter="url(#glow-cyan)">
+    <rect x="398.4" y="38.0" width="79.6" height="32" fill="#0f0a1a" />
+    <rect x="478.0" y="38.0" width="191.4" height="32" fill="#00d9ff" />
+    <text x="438.2" y="58.5" fill="#ffffff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">GITHUB</text>
+    <text x="573.7" y="58.5" fill="#0f0a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle">raghubirrajmahato15</text>
   </g>
 </svg>

@@ -30,7 +30,7 @@ CHAR_W = 8.6  # heuristic average width for bold uppercase sans-serif at FONT_SI
 H_PAD = 14
 GAP = 12
 ROW_PAD = 16
-SHADOW_MARGIN = 10
+SHADOW_MARGIN = 22
 
 
 def text_w(s):
@@ -41,9 +41,10 @@ def badge(x, y, label, value, color):
     label_w = text_w(label) + H_PAD * 2
     value_w = text_w(value) + H_PAD * 2
     total_w = label_w + value_w
+    filter_id = "glow-purple" if color == PURPLE else "glow-cyan"
 
     return total_w, f'''
-  <g filter="url(#dropshadow)">
+  <g filter="url(#{filter_id})">
     <rect x="{x:.1f}" y="{y:.1f}" width="{label_w:.1f}" height="{HEIGHT}" fill="{BG_LABEL}" />
     <rect x="{x+label_w:.1f}" y="{y:.1f}" width="{value_w:.1f}" height="{HEIGHT}" fill="{color}" />
     <text x="{x+label_w/2:.1f}" y="{y+HEIGHT/2+4.5:.1f}" fill="{LABEL_TEXT}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="{FONT_SIZE}" font-weight="700" letter-spacing="0.6" text-anchor="middle">{escape(label)}</text>
@@ -64,8 +65,11 @@ def build_row(specs):
 
     return f'''<svg width="{total_w:.1f}" height="{total_h:.1f}" viewBox="0 0 {total_w:.1f} {total_h:.1f}" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="dropshadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    <filter id="glow-purple" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="{PURPLE}" flood-opacity="0.65"/>
+    </filter>
+    <filter id="glow-cyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="{CYAN}" flood-opacity="0.65"/>
     </filter>
   </defs>
   {''.join(parts)}
