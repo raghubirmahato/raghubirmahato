@@ -33,7 +33,7 @@ HEIGHT = 32
 FONT_SIZE = 12.5
 CHAR_W = 8.6  # heuristic average width for bold uppercase sans-serif at FONT_SIZE
 H_PAD = 14
-SHADOW_MARGIN = 9  # must cover the glow's blur radius so it isn't clipped
+SHADOW_MARGIN = 5  # must cover the glow's blur radius so it isn't clipped
 
 
 def text_w(s):
@@ -54,10 +54,10 @@ def build_badge_svg(label, value, color):
     return f'''<svg width="{canvas_w:.1f}" height="{canvas_h:.1f}" viewBox="0 0 {canvas_w:.1f} {canvas_h:.1f}" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="glow-purple" x="-60%" y="-60%" width="220%" height="220%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="3" flood-color="{PURPLE}" flood-opacity="0.75"/>
+      <feDropShadow dx="0" dy="0.8" stdDeviation="1.6" flood-color="{PURPLE}" flood-opacity="0.85"/>
     </filter>
     <filter id="glow-cyan" x="-60%" y="-60%" width="220%" height="220%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="3" flood-color="{CYAN}" flood-opacity="0.75"/>
+      <feDropShadow dx="0" dy="0.8" stdDeviation="1.6" flood-color="{CYAN}" flood-opacity="0.85"/>
     </filter>
   </defs>
   <g filter="url(#{filter_id})">
