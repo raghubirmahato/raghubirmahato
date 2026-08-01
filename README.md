@@ -66,7 +66,7 @@ how I build and harden the web apps themselves.
 | 🔐 [HackDev-Vault](https://github.com/raghubirmahato/HackDev-Vault) | `Cryptography` | Encrypted CLI password manager (AES-256-GCM) |
 | 🔓 [HackDev-Password-Cracker](https://github.com/raghubirmahato/HackDev-Password-Cracker) | `Credential Security` | Multi-threaded RAR/ZIP/7Z password cracker with hardware acceleration & smart hint engine |
 | 🧠 [HackDev_AI](https://github.com/raghubirmahato/HackDev_AI) | `AI Security` | Enterprise AI-assisted vulnerability scanner |
-| 🧩 [HackDev-LeakGuard](https://github.com/raghubirmahato/HackDev-LeakGuard) | `Browser Extension` | Chrome extension warning of breached passwords on login/signup/reset pages |
+| 🧩 [HackDev-LeakGuard](https://github.com/raghubirmahato/HackDev-LeakGuard) | `Browser Extension` | Chrome extension warning of breached/leaked passwords on login/signup/reset pages |
 
 </div>
 
