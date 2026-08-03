@@ -14,7 +14,7 @@
 
 <img src="https://raw.githubusercontent.com/raghubirmahato/raghubirmahato/master/matrix-divider-1.svg" width="900" alt="" />
 
-## 👋 Professional Profile
+##  Professional Profile
 
 I'm Raghubir Mahato, a security researcher and full-stack web developer based in Kathmandu, Nepal.
 I build **HackDev**, an open-source suite
@@ -24,19 +24,19 @@ data layers) end to end, from database schema to deployed UI. I like working acr
 stack: the same instinct for "how would this break" that drives the security tooling also shapes
 how I build and harden the web apps themselves.
 
-🔮 **Founder of [HackDev](https://github.com/raghubirmahato/raghubirmahato)** — a growing open-source suite of penetration-testing, recon, and blue-team tools
+ **Founder of [HackDev](https://github.com/raghubirmahato/raghubirmahato)** — a growing open-source suite of penetration-testing, recon, and blue-team tools
 
-💻 **Web developer** — full-stack apps with React, TypeScript, Node.js, and PostgreSQL (see [Good Health AI](https://github.com/raghubirmahato/hack4impact))
+ **Web developer** — full-stack apps with React, TypeScript, Node.js, and PostgreSQL (see [Good Health AI](https://github.com/raghubirmahato/hack4impact))
 
-🛰️ **Security focus** — network & web recon, vulnerability scanning, credential security, threat intelligence, ML-assisted detection
+ **Security focus** — network & web recon, vulnerability scanning, credential security, threat intelligence, ML-assisted detection
 
-🤖 **Exploring** — AI-assisted tooling: automated triage, adaptive payload generation, phishing/anomaly detection
+ **Exploring** — AI-assisted tooling: automated triage, adaptive payload generation, phishing/anomaly detection
 
-📍 Kathmandu, Nepal &nbsp;·&nbsp; 📫 raghubirrajmahato15@gmail.com
+ Kathmandu, Nepal &nbsp;·&nbsp; 📫 raghubirrajmahato15@gmail.com
 
 <img src="https://raw.githubusercontent.com/raghubirmahato/raghubirmahato/master/matrix-divider-2.svg" width="900" alt="" />
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 **Languages:** <img src="https://skillicons.dev/icons?i=python,go,ts,js,bash&theme=dark" height="36"/>
 <br/>
@@ -54,37 +54,37 @@ how I build and harden the web apps themselves.
 
 | Tool | Category | What it does |
 |---|---|---|
-| 🔎 [HackDev-PortScanner](https://github.com/raghubirmahato/HackDev-PortScanner) | `Network Recon` | Async TCP/UDP port scanner, banner grabbing, service fingerprinting |
-| 🌐 [HackDev-SubEnum](https://github.com/raghubirmahato/HackDev-SubEnum) | `Recon` | Passive + active subdomain enumeration, takeover detection |
-| 🛡️ [HackDev-WebScan](https://github.com/raghubirmahato/HackDev-WebScan) | `Web AppSec` | XSS, SQLi, SSTI, open-redirect & header vulnerability scanner |
-| 📂 [HackDev-DirBuster](https://github.com/raghubirmahato/HackDev-DirBuster) | `Web AppSec` | Concurrent directory/file brute-forcer with smart filtering |
-| 🔑 [HackDev-PassAudit](https://github.com/raghubirmahato/HackDev-PassAudit) | `Credential Security` | Password strength auditor, hash identifier & cracker |
-| 🎣 [HackDev-PhishGuard](https://github.com/raghubirmahato/HackDev-PhishGuard) | `Threat Detection` | Heuristic + ML phishing URL detector |
-| 📊 [HackDev-LogSentinel](https://github.com/raghubirmahato/HackDev-LogSentinel) | `Blue Team` | ML-based log anomaly & intrusion detector |
-| 📡 [HackDev-NetSniff](https://github.com/raghubirmahato/HackDev-NetSniff) | `Network Analysis` | Live packet sniffer & traffic analyzer |
-| 🧬 [HackDev-CVEWatch](https://github.com/raghubirmahato/HackDev-CVEWatch) | `Threat Intel` | CVE feed monitor with EPSS/KEV-aware alerting |
-| 🔐 [HackDev-Vault](https://github.com/raghubirmahato/HackDev-Vault) | `Cryptography` | Encrypted CLI password manager (AES-256-GCM) |
-| 🔓 [HackDev-Password-Cracker](https://github.com/raghubirmahato/HackDev-Password-Cracker) | `Credential Security` | Multi-threaded RAR/ZIP/7Z password cracker with hardware acceleration & smart hint engine |
-| 🧠 [HackDev_AI](https://github.com/raghubirmahato/HackDev_AI) | `AI Security` | Enterprise AI-assisted vulnerability scanner |
-| 🧩 [HackDev-LeakGuard](https://github.com/raghubirmahato/HackDev-LeakGuard) | `Browser Extension` | Chrome extension warning of breached/leaked passwords on login/signup/reset pages |
+|  [HackDev-PortScanner](https://github.com/raghubirmahato/HackDev-PortScanner) | `Network Recon` | Async TCP/UDP port scanner, banner grabbing, service fingerprinting |
+|  [HackDev-SubEnum](https://github.com/raghubirmahato/HackDev-SubEnum) | `Recon` | Passive + active subdomain enumeration, takeover detection |
+|  [HackDev-WebScan](https://github.com/raghubirmahato/HackDev-WebScan) | `Web AppSec` | XSS, SQLi, SSTI, open-redirect & header vulnerability scanner |
+|  [HackDev-DirBuster](https://github.com/raghubirmahato/HackDev-DirBuster) | `Web AppSec` | Concurrent directory/file brute-forcer with smart filtering |
+|  [HackDev-PassAudit](https://github.com/raghubirmahato/HackDev-PassAudit) | `Credential Security` | Password strength auditor, hash identifier & cracker |
+|  [HackDev-PhishGuard](https://github.com/raghubirmahato/HackDev-PhishGuard) | `Threat Detection` | Heuristic + ML phishing URL detector |
+|  [HackDev-LogSentinel](https://github.com/raghubirmahato/HackDev-LogSentinel) | `Blue Team` | ML-based log anomaly & intrusion detector |
+|  [HackDev-NetSniff](https://github.com/raghubirmahato/HackDev-NetSniff) | `Network Analysis` | Live packet sniffer & traffic analyzer |
+|  [HackDev-CVEWatch](https://github.com/raghubirmahato/HackDev-CVEWatch) | `Threat Intel` | CVE feed monitor with EPSS/KEV-aware alerting |
+|  [HackDev-Vault](https://github.com/raghubirmahato/HackDev-Vault) | `Cryptography` | Encrypted CLI password manager (AES-256-GCM) |
+|  [HackDev-Password-Cracker](https://github.com/raghubirmahato/HackDev-Password-Cracker) | `Credential Security` | Multi-threaded RAR/ZIP/7Z password cracker with hardware acceleration & smart hint engine |
+|  [HackDev_AI](https://github.com/raghubirmahato/HackDev_AI) | `AI Security` | Enterprise AI-assisted vulnerability scanner |
+|  [HackDev-LeakGuard](https://github.com/raghubirmahato/HackDev-LeakGuard) | `Browser Extension` | Chrome extension warning of breached/leaked passwords on login/signup/reset pages |
 
 </div>
 
 <img src="https://raw.githubusercontent.com/raghubirmahato/raghubirmahato/master/matrix-divider-1.svg" width="900" alt="" />
 
-## 💻 Web Development
+##  Web Development
 
 <div align="center">
 
 | Project | Stack | What it does |
 |---|---|---|
-| 🏥 [Good Health AI](https://github.com/raghubirmahato/hack4impact) | React 19 · TypeScript · Node.js · PostgreSQL · Tailwind · Gemini AI | Full-stack healthcare platform: AI health analysis, doctor discovery, appointment booking |
+|  [Good Health AI](https://github.com/raghubirmahato/hack4impact) | React 19 · TypeScript · Node.js · PostgreSQL · Tailwind · Gemini AI | Full-stack healthcare platform: AI health analysis, doctor discovery, appointment booking |
 
 </div>
 
 <img src="https://raw.githubusercontent.com/raghubirmahato/raghubirmahato/master/matrix-divider-2.svg" width="900" alt="" />
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
 
