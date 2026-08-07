@@ -3,12 +3,12 @@
   <text x="28" y="36" fill="#d11aff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700">Most Used Languages</text>
   <line x1="28" y1="48" x2="342" y2="48" stroke="#2a1f3d" stroke-width="1"/>
   <rect x="28" y="100" width="314" height="10" rx="5" fill="#1c1430" />
-  <rect x="28.0" y="100" width="274.8" height="10" fill="#3572A5" /><rect x="302.8" y="100" width="19.6" height="10" fill="#3178c6" /><rect x="322.4" y="100" width="19.6" height="10" fill="#f1e05a" />
+  <rect x="28.0" y="100" width="258.6" height="10" fill="#3572A5" /><rect x="286.6" y="100" width="36.9" height="10" fill="#f1e05a" /><rect x="323.5" y="100" width="18.5" height="10" fill="#3178c6" />
   
     <circle cx="32.0" cy="126" r="5" fill="#3572A5" />
-    <text x="44.0" y="0" transform="translate(0,130)" fill="#e2e8f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Python <tspan fill="#8b8398">87.5%</tspan></text>
-    <circle cx="189.0" cy="126" r="5" fill="#3178c6" />
-    <text x="201.0" y="0" transform="translate(0,130)" fill="#e2e8f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">TypeScript <tspan fill="#8b8398">6.2%</tspan></text>
-    <circle cx="32.0" cy="150" r="5" fill="#f1e05a" />
-    <text x="44.0" y="0" transform="translate(0,154)" fill="#e2e8f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">JavaScript <tspan fill="#8b8398">6.2%</tspan></text>
+    <text x="44.0" y="0" transform="translate(0,130)" fill="#e2e8f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Python <tspan fill="#8b8398">82.4%</tspan></text>
+    <circle cx="189.0" cy="126" r="5" fill="#f1e05a" />
+    <text x="201.0" y="0" transform="translate(0,130)" fill="#e2e8f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">JavaScript <tspan fill="#8b8398">11.8%</tspan></text>
+    <circle cx="32.0" cy="150" r="5" fill="#3178c6" />
+    <text x="44.0" y="0" transform="translate(0,154)" fill="#e2e8f0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">TypeScript <tspan fill="#8b8398">5.9%</tspan></text>
 </svg>
